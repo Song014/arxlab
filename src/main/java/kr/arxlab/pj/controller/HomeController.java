@@ -22,7 +22,7 @@ public class HomeController {
 	
 	// 히스토리
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String history(Locale locale, Model model) {
+	public String history() {
 
 		
 		return "home";
